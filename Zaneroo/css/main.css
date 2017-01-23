@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.form-control {
+	height: 42px;
+	font-size: 16px;
+}
+
+
+/* page navigation */
+
+
+#search .search-btn {
+	position: relative;
+	top: 12px;
+	background: #1abc9c;
+	padding: 6px 22px;
+	color: white;
+	border-radius: 3px;
+	font-weight: 500;
+}
+
+#search .search-btn:hover {
+	color: #1abc9c;
+	background-color: white;
+	border: 1px #1abc9c solid;
+	text-decoration: none;
+}
+
+#search {
+	margin-top: 80px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+form#main-search {
+	width: 65%;
+	display: inline-block;
+}
+
+header#motto {
+	font-size: 1.17em;
+	letter-spacing: .7px;
+}
+
+/* main navigation */
+
+
+section .adbox {
+	padding: 1%;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	font-size: 1.30em;
+	margin: 10px 0;
+	border: 1px lightgrey solid;
+	border-top: 20px #1abc9c solid;
+}
+
+.first-adbox {
+	margin-top: 40px;
+}
+
+
+section .adbox .adbox-header {
+	margin-left: 37px;
+	margin-bottom: 15px;
+}
+
+section .adbox .adbox-header h4 a{
+	font-size: 1.20em;
+	font-weight: 500;
+	color: #777;
+	width: 33%;
+	text-decoration: none;
+}
+
+section .adbox .adbox-header h4 a:hover {
+	color: #1abc9c;
+}
+
+section .adbox-content {
+	font-size: .85em;
+	color: #777;
+}
+
+section .adbox-content a {
+	color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+footer  {
+	padding: .5%;
+	background-color: #1abc9c;
+	margin-top: 45px; 
+	color: white;
+}
